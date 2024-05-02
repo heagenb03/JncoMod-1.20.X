@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jncomod:item/dark_stone_twin_cannon_leggings"
+  }
+}

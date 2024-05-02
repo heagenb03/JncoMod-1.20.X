@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "  S",
+    " s ",
+    "S  "
+  ],
+  "result": {
+    "item": "jncomod:thread_white"
+  },
+  "show_notification": true
+}

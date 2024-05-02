@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "M": {
+      "item": "jncomod:magic_dust"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:stone_brick_slab"
+    }
+  },
+  "pattern": [
+    "AMA",
+    "SDS",
+    "OOO"
+  ],
+  "result": {
+    "item": "jncomod:jean_building_station"
+  },
+  "show_notification": true
+}

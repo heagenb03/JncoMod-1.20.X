@@ -1,0 +1,28 @@
+{
+  //info on templates pools : minecraft.gamepedia.com/Custom_world_generation#JSON_format_8
+  "name": "jncomod:buddha_temple/start_pool",
+
+  //if fails -> generate x
+  "fallback": "minecraft:empty",
+
+  //list nbt files
+  "elements": [
+    {
+
+      "weight": 1,
+      "element": {
+
+        "location": "jncomod:buddha_temple",
+
+        // Processor JSON files to randomize blocks (not used)
+        "processors": "minecraft:empty",
+
+        // how structure forms to terrain around it
+        "projection": "rigid",
+
+        //the kind of element spawning
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

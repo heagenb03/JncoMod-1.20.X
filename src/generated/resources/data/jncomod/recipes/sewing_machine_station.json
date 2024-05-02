@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "M": {
+      "item": "jncomod:magic_dust"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "item": "minecraft:stone_brick_slab"
+    }
+  },
+  "pattern": [
+    "SSM",
+    "N S",
+    "III"
+  ],
+  "result": {
+    "item": "jncomod:sewing_machine_station"
+  },
+  "show_notification": true
+}

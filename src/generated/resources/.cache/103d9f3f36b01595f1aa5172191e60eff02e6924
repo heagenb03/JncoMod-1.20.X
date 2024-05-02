@@ -1,0 +1,8 @@
+// 1.20.1	2024-05-01T12:45:28.4255306	Registries
+420c5795200a366692b98fe7e368567c0a713129 data/jncomod/dimension/jncodim.json
+3d33d2c7a9e11e7b1acb91e66fc4a931c83b3cd2 data/jncomod/dimension_type/jncodim_type.json
+f96a545da9a217df0f5898b09e2bd5411257a57e data/jncomod/forge/biome_modifier/add_magic_dust_ore.json
+1ce45c652d6cd190b78380c77dbf7050ca0ded4a data/jncomod/worldgen/biome/buddha_grounds.json
+cc5bb0e71d88bf8de5add013bcd875d576b27978 data/jncomod/worldgen/biome/deserted_grounds.json
+9ad7a9bd2742bc594f904e51b6b3bd6ed3947b2c data/jncomod/worldgen/configured_feature/jncodim_magic_dust_ore.json
+e0b985c7cc07b502eb03598e710b2411261f43d2 data/jncomod/worldgen/placed_feature/magic_dust_ore_placed_key.json

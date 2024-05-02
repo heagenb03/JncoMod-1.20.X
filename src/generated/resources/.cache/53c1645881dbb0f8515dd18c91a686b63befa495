@@ -1,0 +1,9 @@
+// 1.20.1	2024-04-14T16:32:40.5908761	Block States: jncomod
+717fa58bd3e9926a89ee334092c64f6c9a0bcac8 assets/jncomod/blockstates/jean_building_station.json
+3e4ac6eb90d84ed7337b631979fa15308748a721 assets/jncomod/blockstates/jnco_portal.json
+c7f3c9e2a455e99b909960329c8494ca47277671 assets/jncomod/blockstates/magic_dust_ore.json
+012546fbe1d95ac6715195d6a2f0cd8455af613c assets/jncomod/blockstates/sewing_machine_station.json
+09c82028251554bde61b5c65c8840438a27fa1b4 assets/jncomod/models/block/jnco_portal.json
+0536e2790da5f249118006280300dc53578bf9ac assets/jncomod/models/block/magic_dust_ore.json
+f347a2569d03d3c83590c540be48a45caf567822 assets/jncomod/models/item/jnco_portal.json
+faf857de849897cd481a410c41ddca4cc05b2799 assets/jncomod/models/item/magic_dust_ore.json

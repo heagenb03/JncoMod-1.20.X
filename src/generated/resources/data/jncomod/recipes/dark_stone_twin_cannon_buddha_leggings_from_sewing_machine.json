@@ -1,0 +1,17 @@
+{
+  "type": "jncomod:sewing_machine",
+  "ingredients": [
+    {
+      "item": "jncomod:magic_thread_white"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_leggings"
+    },
+    {
+      "item": "jncomod:embroidery_buddha"
+    }
+  ],
+  "output": {
+    "item": "jncomod:dark_stone_twin_cannon_buddha_leggings"
+  }
+}

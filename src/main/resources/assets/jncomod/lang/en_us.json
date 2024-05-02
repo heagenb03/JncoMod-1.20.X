@@ -1,0 +1,74 @@
+{
+  "item.jncomod.embroidery_buddha": "Lucky Buddha Embroidery",
+  "tooltip.jncomod.embroidery_buddha.tooltip": "Embroidery",
+
+  "item.jncomod.denim": "Denim",
+  "tooltip.jncomod.denim.tooltip": "Piece of denim",
+
+  "item.jncomod.dark_stone_twin_cannon_waist": "Dark Stone Twin Cannon Waist",
+  "tooltip.jncomod.dark_stone_twin_cannon_waist.tooltip": "Waist",
+  "item.jncomod.dark_stone_twin_cannon_left_back_pocket": "Dark Stone Twin Cannon Back Left Pocket",
+  "tooltip.jncomod.dark_stone_twin_cannon_left_back_pocket.tooltip": "Pocket",
+  "item.jncomod.dark_stone_twin_cannon_right_back_pocket": "Dark Stone Twin Cannon Right Back Pocket",
+  "tooltip.jncomod.dark_stone_twin_cannon_right_back_pocket.tooltip": "Pocket",
+  "item.jncomod.dark_stone_twin_cannon_left_front_pocket": "Dark Stone Twin Cannon Front Left Pocket",
+  "tooltip.jncomod.dark_stone_twin_cannon_left_front_pocket.tooltip": "Pocket",
+  "item.jncomod.dark_stone_twin_cannon_right_front_pocket": "Dark Stone Twin Cannon Front Right Pocket",
+  "tooltip.jncomod.dark_stone_twin_cannon_right_front_pocket.tooltip": "Pocket",
+  "item.jncomod.dark_stone_twin_cannon_left_pant_leg": "Dark Stone Twin Cannon Left Pant Leg",
+  "tooltip.jncomod.dark_stone_twin_cannon_left_pant_leg.tooltip": "Leg",
+  "item.jncomod.dark_stone_twin_cannon_right_pant_leg": "Dark Stone Twin Cannon Right Pant Leg",
+  "tooltip.jncomod.dark_stone_twin_cannon_right_pant_leg.tooltip": "Leg",
+  "item.jncomod.dark_stone_twin_cannon_left_opening": "Dark Stone Twin Cannon Left Opening",
+  "tooltip.jncomod.dark_stone_twin_cannon_left_opening.tooltip": "Leg Opening",
+  "item.jncomod.dark_stone_twin_cannon_right_opening": "Dark Stone Twin Cannon Right Opening",
+  "tooltip.jncomod.dark_stone_twin_cannon_right_opening.tooltip": "Leg Opening",
+
+  "item.jncomod.dark_stone_twin_cannon_leggings": "Dark Stone Twin Cannon Jeans",
+  "item.jncomod.dark_stone_twin_cannon_buddha_leggings": "Dark Stone Twin Cannon Lucky Buddha Jeans",
+  "item.jncomod.jet_black_twin_cannon_leggings": "Jet Black Twin Cannon Jeans",
+  "item.jncomod.jet_black_twin_cannon_buddha_leggings": "Jet Black Twin Cannon Lucky Buddha Jeans",
+
+
+  "item.jncomod.thread_white": "White Thread",
+  "tooltip.jncomod.thread_white.tooltip": "Thread Maybe for Magic",
+
+  "item.jncomod.magic_thread_white": "Magic White Thread",
+  "tooltip.jncomod.magic_thread_white.tooltip": "Magical Thread for Magical Stitches",
+
+  "item.jncomod.magic_dust": "Magic Dust",
+  "tooltip.jncomod.magic_dust.tooltip": "Magic Dust for Magical Effects",
+
+  "item.jncomod.lucky_buddha_spawn_egg": "Lucky Buddha Spawn Egg",
+  "item.jncomod.jacques_yaakov_revah_spawn_egg": "Jacques Yaakov Revah Spawn Egg",
+  "item.jncomod.haim_milo_revah_spawn_egg": "Haim Milo Revah Spawn Egg",
+  "item.jncomod.flame_head_spawn_egg": "Flamehead Spawn Egg",
+
+
+  "painting.jncomod.jnco_crown.title": "JNCO Crown",
+  "painting.jncomod.jnco_crown.author": "Heagen",
+
+  "block.jncomod.jean_building_station": "JNCO Jean Building Station",
+  "tooltip.jncomod.jean_building_station.tooltip": "Create JNCOs",
+
+  "block.jncomod.sewing_machine_station": "Sewing Machine",
+  "tooltip.jncomod.sewing_machine_station.tooltip": "Personalize Your JNCOs",
+
+  "block.jncomod.magic_dust_ore": "Magic Dust Ore",
+  "tooltip.jncomod.magic_dust_ore.tooltip": "Ore for Magic Dust",
+
+  "block.jncomod.jnco_portal": "JNCO Dimension Portal Block",
+
+  "block.jncomod.oak_log_spray_paint": "Spray Painted Oak Log",
+
+  "effect.jncomod.prosperity": "Prosperity",
+
+  "entity.jncomod.lucky_buddha": "Lucky Buddha",
+  "entity.jncomod.jacques_yaakov_revah": "Jacques Yaakov Revah",
+  "entity.jncomod.haim_milo_revah": "Haim Milo Revah",
+  "entity.jncomod.flame_head": "Flamehead",
+
+  "tooltip.jncomod.block_item.tooltip.shift": "Press Shift for Info",
+
+  "creativetab.jnco_tab": "JNCO"
+}

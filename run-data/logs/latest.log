@@ -1,0 +1,41 @@
+[01May2024 12:45:20.102] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\heage\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.19, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, jncomod, --all, --output, C:\Users\heage\Documents\Minecraft Mods\JncoMod - 1.20.1\src\generated\resources, --existing, C:\Users\heage\Documents\Minecraft Mods\JncoMod - 1.20.1\src\main\resources]
+[01May2024 12:45:20.117] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[01May2024 12:45:20.246] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[01May2024 12:45:20.287] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/heage/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[01May2024 12:45:20.603] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\heage\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.19\99f54fe7798c97a9a6e7c962ef94f7d30610122d\javafmllanguage-1.20.1-47.2.19.jar is missing mods.toml file
+[01May2024 12:45:20.606] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\heage\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.19\1b32b3f27357ab558a098c1c20e1494558a71b31\lowcodelanguage-1.20.1-47.2.19.jar is missing mods.toml file
+[01May2024 12:45:20.609] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\heage\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.19\2eb26ae9afdd5709b9ee9bdf90b9486212a676af\mclanguage-1.20.1-47.2.19.jar is missing mods.toml file
+[01May2024 12:45:20.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\heage\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.19\7cd28cc091d07bbe6a4f51bf9728ccbc27bfc4fc\fmlcore-1.20.1-47.2.19.jar is missing mods.toml file
+[01May2024 12:45:20.765] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[01May2024 12:45:22.095] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01May2024 12:45:22.098] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\heage\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, jncomod, --all, --output, C:\Users\heage\Documents\Minecraft Mods\JncoMod - 1.20.1\src\generated\resources, --existing, C:\Users\heage\Documents\Minecraft Mods\JncoMod - 1.20.1\src\main\resources]
+[01May2024 12:45:22.489] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\heage\Documents\Minecraft Mods\JncoMod - 1.20.1\build\createSrgToMcp\output.srg
+[01May2024 12:45:22.490] [main/INFO] [mixin/]: Remapping refMap terrablender.refmap.json using C:\Users\heage\Documents\Minecraft Mods\JncoMod - 1.20.1\build\createSrgToMcp\output.srg
+[01May2024 12:45:22.939] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [jncomod]
+[01May2024 12:45:27.105] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.19, for MC 1.20.1 with MCP 20230612.114412
+[01May2024 12:45:27.106] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.19 Initialized
+[01May2024 12:45:27.150] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[01May2024 12:45:27.150] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[01May2024 12:45:27.150] [modloading-worker-0/INFO] [terrablender/]: Registered region jncomod:overworld to index 1 for type OVERWORLD
+[01May2024 12:45:27.447] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[01May2024 12:45:27.458] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 6.737 ms
+[01May2024 12:45:27.780] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/heage/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.19_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.19_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[01May2024 12:45:27.781] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/heage/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.19_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.19_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[01May2024 12:45:28.177] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[01May2024 12:45:28.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 35 ms
+[01May2024 12:45:28.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[01May2024 12:45:28.242] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 28 ms
+[01May2024 12:45:28.243] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[01May2024 12:45:28.263] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 20 ms
+[01May2024 12:45:28.264] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Tags
+[01May2024 12:45:28.265] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Tags finished after 1 ms
+[01May2024 12:45:28.265] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: jncomod
+[01May2024 12:45:28.323] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: jncomod finished after 56 ms
+[01May2024 12:45:28.323] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: jncomod
+[01May2024 12:45:28.399] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: jncomod finished after 76 ms
+[01May2024 12:45:28.400] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[01May2024 12:45:28.420] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 20 ms
+[01May2024 12:45:28.420] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:painting_variant mod id jncomod
+[01May2024 12:45:28.424] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:painting_variant mod id jncomod finished after 3 ms
+[01May2024 12:45:28.424] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 247 ms
+[01May2024 12:45:28.430] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 61, old count: 61, new count: 62, removed stale: 0, written: 2

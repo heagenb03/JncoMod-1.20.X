@@ -1,0 +1,22 @@
+{
+  //What structures to pick
+  "structures": [
+    {
+      "structure": "jncomod:jnco_factory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    //Has to be unique
+    "salt": 121124123,
+
+    // avg. distance apart in chunks for spawn attempts
+    "spacing": 20,
+
+    // min. distance apart in chunks for spawn attempts (has to be smaller than avg.)
+    "separation": 15,
+
+    // the kind of placement
+    "type": "minecraft:random_spread"
+  }
+}

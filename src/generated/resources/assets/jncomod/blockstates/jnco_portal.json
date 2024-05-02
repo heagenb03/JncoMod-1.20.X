@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "jncomod:block/jnco_portal"
+    }
+  }
+}

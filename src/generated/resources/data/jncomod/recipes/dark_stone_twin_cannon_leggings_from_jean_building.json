@@ -1,0 +1,38 @@
+{
+  "type": "jncomod:jean_building",
+  "ingredients": [
+    {
+      "item": "jncomod:thread_white"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_waist"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_left_front_pocket"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_right_front_pocket"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_left_back_pocket"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_right_back_pocket"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_left_pant_leg"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_right_pant_leg"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_left_opening"
+    },
+    {
+      "item": "jncomod:dark_stone_twin_cannon_right_opening"
+    }
+  ],
+  "output": {
+    "item": "jncomod:dark_stone_twin_cannon_leggings"
+  }
+}
