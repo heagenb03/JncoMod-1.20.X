@@ -30,7 +30,17 @@ public class JeanBuildingRecipe implements Recipe<SimpleContainer> {
             return false;
         }
 
-        return inputItems.get(0).test(pContainer.getItem(0));
+        return inputItems.get(0).test(pContainer.getItem(0))
+                && inputItems.get(1).test(pContainer.getItem(1))
+                && inputItems.get(2).test(pContainer.getItem(2))
+                && inputItems.get(3).test(pContainer.getItem(3))
+                && inputItems.get(4).test(pContainer.getItem(4))
+                && inputItems.get(5).test(pContainer.getItem(5))
+                && inputItems.get(6).test(pContainer.getItem(6))
+                && inputItems.get(7).test(pContainer.getItem(7))
+                && inputItems.get(8).test(pContainer.getItem(8))
+                && inputItems.get(9).test(pContainer.getItem(9))
+                && inputItems.get(10).test(pContainer.getItem(10));
     }
 
     @Override
@@ -95,13 +105,14 @@ public class JeanBuildingRecipe implements Recipe<SimpleContainer> {
 
         @Override
         public JeanBuildingRecipe fromNetwork(ResourceLocation id, FriendlyByteBuf buf) {
+            ItemStack output = buf.readItem();
+
             NonNullList<Ingredient> inputs = NonNullList.withSize(buf.readInt(), Ingredient.EMPTY);
 
             for (int i = 0; i < inputs.size(); i++) {
                 inputs.set(i, Ingredient.fromNetwork(buf));
             }
 
-            ItemStack output = buf.readItem();
             return new JeanBuildingRecipe(id, output, inputs);
         }
 

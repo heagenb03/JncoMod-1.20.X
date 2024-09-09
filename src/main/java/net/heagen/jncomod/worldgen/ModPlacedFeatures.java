@@ -16,13 +16,13 @@ import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    public static final ResourceKey<PlacedFeature> MAGIC_DUST_ORE_PLACED_KEY = registerKey("magic_dust_ore_placed_key");
+    public static final ResourceKey<PlacedFeature> MAGIC_DUST_ORE_PLACED_KEY = registerKey("magic_dust_ore_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, MAGIC_DUST_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.JNCODIM_MAGIC_DUST_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(5,
+                ModOrePlacement.rareOrePlacement(25,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-5))));
     }
 

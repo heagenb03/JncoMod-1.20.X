@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
-  "features": "jncomod:magic_dust_ore_placed_key",
+  "biomes": "#jncomod:magic_dust_ore_biomes",
+  "features": "jncomod:magic_dust_ore_placed",
   "step": "underground_ores"
 }

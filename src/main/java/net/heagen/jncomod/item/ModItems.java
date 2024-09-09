@@ -82,11 +82,15 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.FLAMEHEAD, 0x2222, 0x3333,
                     new Item.Properties()));
 
-    public static boolean makesFlameheadNeutral(ItemStack stack, LivingEntity wearer){
+    public static boolean makesFlameheadNeutral(ItemStack stack){
         return stack.getItem() instanceof ModArmorItem && ((ModArmorItem) stack.getItem()).getMaterial() ==
                 ModArmorMaterials.DARK_STONE_TWIN_CANNON_BUDDHA
                 || stack.getItem() instanceof ModArmorItem && ((ModArmorItem) stack.getItem()).getMaterial() ==
-                ModArmorMaterials.DARK_STONE_TWIN_CANNON;
+                ModArmorMaterials.DARK_STONE_TWIN_CANNON
+                || stack.getItem() instanceof ModArmorItem && ((ModArmorItem) stack.getItem()).getMaterial() ==
+                ModArmorMaterials.JET_BLACK_TWIN_CANNON
+                || stack.getItem() instanceof ModArmorItem && ((ModArmorItem) stack.getItem()).getMaterial() ==
+                ModArmorMaterials.JET_BLACK_TWIN_CANNON_BUDDHA;
     }
 
     public static void register(IEventBus eventBus) {

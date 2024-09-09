@@ -14,6 +14,7 @@ import net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder;
 import net.minecraft.world.entity.ai.memory.MemoryModuleType;
 import net.minecraft.world.entity.schedule.Activity;
 
+/**
 public class FlameheadAi implements BehaviorControl {
 
     public static Brain<?> makeBrain(FlameheadEntity flameheadEntity, Brain<FlameheadEntity> pBrain) {
@@ -80,3 +81,4 @@ public class FlameheadAi implements BehaviorControl {
         return null;
     }
 }
+**/

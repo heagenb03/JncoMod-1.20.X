@@ -1,9 +1,9 @@
 {
-  "feature": "jncomod:jncodim_magic_dust_ore",
+  "feature": "jncomod:magic_dust_ore",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 5
+      "chance": 25
     },
     {
       "type": "minecraft:in_square"

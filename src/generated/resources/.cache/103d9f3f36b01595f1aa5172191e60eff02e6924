@@ -1,8 +1,8 @@
-// 1.20.1	2024-05-01T12:45:28.4255306	Registries
+// 1.20.1	2024-05-03T21:35:27.1193572	Registries
 420c5795200a366692b98fe7e368567c0a713129 data/jncomod/dimension/jncodim.json
-3d33d2c7a9e11e7b1acb91e66fc4a931c83b3cd2 data/jncomod/dimension_type/jncodim_type.json
-f96a545da9a217df0f5898b09e2bd5411257a57e data/jncomod/forge/biome_modifier/add_magic_dust_ore.json
-1ce45c652d6cd190b78380c77dbf7050ca0ded4a data/jncomod/worldgen/biome/buddha_grounds.json
-cc5bb0e71d88bf8de5add013bcd875d576b27978 data/jncomod/worldgen/biome/deserted_grounds.json
-9ad7a9bd2742bc594f904e51b6b3bd6ed3947b2c data/jncomod/worldgen/configured_feature/jncodim_magic_dust_ore.json
-e0b985c7cc07b502eb03598e710b2411261f43d2 data/jncomod/worldgen/placed_feature/magic_dust_ore_placed_key.json
+5c253c25aa6101d0d54af1b27db82397882dd0d4 data/jncomod/dimension_type/jncodim_type.json
+935763260114e73947d447f61ad81e8c6754f415 data/jncomod/forge/biome_modifier/add_magic_dust_ore.json
+ce7609f37ee4420bbaba1f48ec51daf38c52d17c data/jncomod/worldgen/biome/buddha_grounds.json
+e8db56b1461b16fc0f6fc56a3868dc5d052d9378 data/jncomod/worldgen/biome/deserted_grounds.json
+04ca7539f75d70ed9fcd52d6f2087984fe512c10 data/jncomod/worldgen/configured_feature/magic_dust_ore.json
+19171292c0ebb2631083ae851a5c640f3922bb56 data/jncomod/worldgen/placed_feature/magic_dust_ore_placed.json

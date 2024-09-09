@@ -34,7 +34,7 @@ public class ModDimensions {
     public static void bootstrapType(BootstapContext<DimensionType> context) {
         context.register(JNCO_DIM_TYPE, new DimensionType(
                 OptionalLong.of(18000),
-                false,
+                true,
                 false,
                 false,
                 false,
@@ -46,7 +46,7 @@ public class ModDimensions {
                 256,
                 BlockTags.INFINIBURN_OVERWORLD,
                 BuiltinDimensionTypes.OVERWORLD_EFFECTS,
-                0.25f,
+                0.0f,
                 new DimensionType.MonsterSettings(false, false, ConstantInt.of(0), 15)));
 
     }

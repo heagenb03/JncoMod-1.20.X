@@ -1,6 +1,7 @@
 package net.heagen.jncomod.worldgen;
 
 import net.heagen.jncomod.JNCOMod;
+import net.heagen.jncomod.util.ModTags;
 import net.heagen.jncomod.worldgen.biome.ModBiomes;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
@@ -22,7 +23,7 @@ public class ModBiomeModifiers {
         var biomes = context.lookup(Registries.BIOME);
 
         context.register(ADD_MAGIC_DUST_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
+                biomes.getOrThrow(ModTags.Biomes.MAGIC_DUST_ORE_BIOMES),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.MAGIC_DUST_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
     }

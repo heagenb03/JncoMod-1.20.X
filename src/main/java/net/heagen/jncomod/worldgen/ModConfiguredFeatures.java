@@ -17,13 +17,15 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final ResourceKey<ConfiguredFeature<?, ?>> JNCODIM_MAGIC_DUST_ORE_KEY = registerKey("jncodim_magic_dust_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> JNCODIM_MAGIC_DUST_ORE_KEY = registerKey("magic_dust_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
+        RuleTest deepSlateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreConfiguration.TargetBlockState> jncodimMagicDustOre = List.of(OreConfiguration.target(stoneReplaceables,
-                ModBlocks.MAGIC_DUST_ORE.get().defaultBlockState()));
+                ModBlocks.MAGIC_DUST_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepSlateReplaceables, ModBlocks.MAGIC_DUST_ORE.get().defaultBlockState()));
 
         register(context, JNCODIM_MAGIC_DUST_ORE_KEY, Feature.ORE, new OreConfiguration(jncodimMagicDustOre, 3));
     }

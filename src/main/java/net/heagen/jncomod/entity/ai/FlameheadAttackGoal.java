@@ -55,7 +55,7 @@ public class FlameheadAttackGoal extends MeleeAttackGoal {
 
     private boolean isWearingJNCOS(LivingEntity pEntity) {
         for (ItemStack itemstack : pEntity.getArmorSlots()) {
-            if (ModItems.makesFlameheadNeutral(itemstack, pEntity)){
+            if (ModItems.makesFlameheadNeutral(itemstack)){
                 return true;
             }
         }

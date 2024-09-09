@@ -2,7 +2,6 @@ package net.heagen.jncomod.entity.custom;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.Dynamic;
-import net.heagen.jncomod.entity.ai.FlameheadAi;
 import net.heagen.jncomod.entity.ai.FlameheadAttackGoal;
 import net.heagen.jncomod.entity.ai.LuckyBuddhaAttackGoal;
 import net.minecraft.network.chat.Component;
@@ -56,20 +55,20 @@ public class FlameheadEntity extends Monster implements NeutralMob{
 
     @Override
     protected void registerGoals() {
-        this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));
+        this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
         this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Player.class, 30F));
-        this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1.0D));
-        this.goalSelector.addGoal(1, new FlameheadAttackGoal(this, 1.0D, true));
+        this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1.0D));
+        this.goalSelector.addGoal(2, new FlameheadAttackGoal(this, 1.0D, true));
 
-        this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
-        this.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(this, Player.class, 10, true, false, this::isAngryAt));
+        this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
+        this.targetSelector.addGoal(1, new NearestAttackableTargetGoal<>(this, Player.class, 10, true, false, this::isAngryAt));
     }
 
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createMobAttributes().add(Attributes.MAX_HEALTH, 25D)
                 .add(Attributes.ATTACK_DAMAGE, 3D)
                 .add(Attributes.ATTACK_KNOCKBACK, 0.75f)
-                .add(Attributes.MOVEMENT_SPEED, 0.2f)
+                .add(Attributes.MOVEMENT_SPEED, 0.3f)
                 .add(Attributes.FOLLOW_RANGE, 12D)
                 .add(Attributes.KNOCKBACK_RESISTANCE, 0.1D);
     }
@@ -105,6 +104,7 @@ public class FlameheadEntity extends Monster implements NeutralMob{
         this.walkAnimation.update(f, 0.2F);
     }
 
+    /**
     @Override
     protected Brain.Provider<FlameheadEntity> brainProvider() {
         return Brain.provider(MEMORY_TYPES, SENSOR_TYPES);
@@ -119,6 +119,8 @@ public class FlameheadEntity extends Monster implements NeutralMob{
     public Brain<FlameheadEntity> getBrain() {
         return (Brain<FlameheadEntity>)super.getBrain();
     }
+
+     **/
 
     @Override
     public void tick() {
@@ -142,6 +144,7 @@ public class FlameheadEntity extends Monster implements NeutralMob{
         super.defineSynchedData();
         this.entityData.define(ATTACKING, false);
     }
+
 
     @Override
     public int getRemainingPersistentAngerTime() {

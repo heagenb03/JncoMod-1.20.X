@@ -2,13 +2,15 @@ package net.heagen.jncomod.compat;
 
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
+import mezz.jei.api.helpers.IStackHelper;
+import mezz.jei.api.recipe.transfer.IRecipeTransferHandlerHelper;
 import mezz.jei.api.registration.IGuiHandlerRegistration;
 import mezz.jei.api.registration.IRecipeCategoryRegistration;
 import mezz.jei.api.registration.IRecipeRegistration;
+import mezz.jei.api.registration.IRecipeTransferRegistration;
 import net.heagen.jncomod.recipe.JeanBuildingRecipe;
 import net.heagen.jncomod.recipe.SewingMachineRecipe;
-import net.heagen.jncomod.screen.JeanBuildingStationScreen;
-import net.heagen.jncomod.screen.SewingMachineStationScreen;
+import net.heagen.jncomod.screen.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.crafting.RecipeManager;
@@ -50,5 +52,11 @@ public class JEIJNCOModPlugin implements IModPlugin {
 
         registration.addRecipeClickArea(SewingMachineStationScreen.class, 126, 42, 18, 10,
                 SewingMachineRecipeCategory.SEWING_MACHINE_TYPE);
+    }
+
+    @Override
+    public void registerRecipeTransferHandlers(IRecipeTransferRegistration registration) {
+        registration.addRecipeTransferHandler(JeanBuildingStationMenu.class, ModMenuTypes.JEAN_BUILDING_MENU.get(), JeanBuildingRecipeCategory.JEAN_BUILDING_TYPE, 0, 9, 9, 36);
+        registration.addRecipeTransferHandler(SewingMachineStationMenu.class, ModMenuTypes.SEWING_MACHINE_MENU.get(), SewingMachineRecipeCategory.SEWING_MACHINE_TYPE, 0, 2, 9, 36);
     }
 }
